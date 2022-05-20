@@ -1,0 +1,92 @@
+body{
+background-color:white;
+}
+
+#contenedor{
+width:800px;
+height: 800px;
+  background-color: lightyellow;
+margin: 0 auto;
+}
+
+#menu{
+height: 200px;
+background-color: lightblue;
+}
+
+
+#menudos{
+width: 480px;
+margin:0 auto;
+}
+
+.circulos{
+  background-color: silver;
+  height: 100px;
+  width: 100px;
+ border-radius: 50%;
+ float: left;
+margin-right: 20px;
+}
+.circulos:hover{
+opacity: 50%;
+}
+
+#uno{
+  background-color: red;
+}
+#dos{
+  background-color: blue;
+}
+#tres{
+  background-color: yellow;
+ }
+#cuatro{
+  background-color: green;
+}
+
+.izq{
+  text-align: center;
+  background-color:lightgreen;
+width: 400px;
+height: 500px;
+float: left;
+}
+
+
+.derch{
+  text-align: center;
+  background-color:salmon;
+  width: 400px;
+  height: 500px;
+float: right;
+}
+
+ #footer{
+height: 140px;
+width: 800px;
+background-color: green;
+clear: both;
+
+ }
+ul{
+list-style-type: none;
+margin: 0 auto;
+width: 400px;
+}
+
+li a{
+text-decoration: none;
+display: block;
+width: 50px;
+padding: 20px;
+float: left;
+background-color: black;
+color: darkorange;
+
+}
+
+li a:hover{
+background-color: darkorange;
+color: black;
+}

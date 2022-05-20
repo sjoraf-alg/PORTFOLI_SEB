@@ -1,0 +1,73 @@
+
+*{
+  margin: 0px;
+}
+body{
+  background-color: #2E86C1 ;
+}
+
+@keyframes flor {
+  0% {transform: rotate(0deg);}
+
+  100% {transform: rotate(360deg);}
+}
+
+#flor{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top:300px;
+  left:898px;
+  animation: flor 4s infinite linear;
+}
+.amarillo{
+  position: absolute;
+  background: yellow;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.petalo{
+  position: relative;
+  background-color: #C0392B;
+  width: 200px;
+  height: 200px;
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+  z-index: -1;
+}
+.petalo.primero{
+  top: -180px;
+ left: 20px;
+}
+.petalo.segundo{
+  top: -180px;
+  left: 20px;
+  transform: rotate(90deg);
+}
+.petalo.tercero{
+  top: -380px;
+  left: -180px;
+}
+.petalo.cuarto{
+  top: -780px;
+  left: -180px;
+  transform: rotate(90deg);
+}
+.tallo{
+  position: absolute;
+  background-color: #28B463;
+  width: 20px;
+  height: 400px;
+  top: 320px;
+  left: 908px;
+  z-index: -1;
+  margin: 0px;
+}
+.pasto{
+  position: absolute;
+  background-color: #28B463;
+  top: 620px;
+  width: 100%;
+  height: 400px;
+}

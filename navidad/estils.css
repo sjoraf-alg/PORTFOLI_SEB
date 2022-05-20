@@ -1,0 +1,12 @@
+body{
+padding: 0 auto;
+margin: 0 auto;
+}
+
+.foto {
+width: auto;
+height: 1000px;
+background-image: url("img/navidad.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+}

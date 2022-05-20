@@ -1,0 +1,138 @@
+  body{
+background-color:red;
+padding: 0;
+margin: 0;
+ }
+
+
+div {
+
+  background-repeat:no-repeat;
+  background-position: 400px;
+}
+
+p{
+text-align:left;
+font-size: 18px;
+font-family:helvetica,sans-serif;
+line-height: 22px;
+width: 375px;
+margin-left: 25px;
+
+
+}
+
+ul{
+text-align:right;
+margin-top: 0px;
+
+
+}
+li{
+  text-decoration: none;
+display:inline-block;
+margin: 15px;
+
+
+  }
+
+
+
+
+.clase1{color: #CCC;}
+
+
+
+h1{font-family: helvetica;
+text-align: center;
+width: 375px;
+margin-top: 0px;
+
+}
+
+
+
+
+
+#hoja1{
+background-color:#FFF;
+height:40px;
+
+background-image:url(imagenes/feedly.png);
+background-repeat:no-repeat;
+background-position: 5px;
+
+
+}
+
+#hoja2{
+background-color:#6C3;
+height:550px;
+background-image:url(imagenes/img-hero-full-list.png);
+
+
+}
+
+
+#hoja3{
+background-color:#FFF;
+height:641px;
+background-image:url(imagenes/allinone.jpg);
+
+}
+
+
+#hoja4{
+background-color:#333333;
+height:500px;
+background-image:url(imagenes/curator-short.png);
+
+}
+
+
+#hoja5{
+background-color:#EEECEE;
+height:550px;
+background-image:url(imagenes/img-hero-full-list.png);
+
+}
+
+#hoja6{
+background-color:#6C3;
+height:550px;
+background-image:url(imagenes/mobile-share.png);
+
+
+}
+
+
+#hoja7{
+background-color:#FFF;
+height:643px;
+background-image:url(imagenes/anywhere.png);
+
+}
+
+#hoja8{
+background-color:#333333;
+height:200px;
+padding-left: 200px;  
+}
+
+
+
+#boton {
+border-radius: 30%;
+background:none;
+background-color:#076345;
+text-align: center;
+line-height:200px;
+font-size:25px;
+font-family: serif;
+font-style: italic;
+float: right;
+position: fixed;
+right: 50px;
+bottom: 50px;
+
+}
